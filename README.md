@@ -5,8 +5,7 @@ Challenge is to clean up existing code to have semantic HTML elements and add ac
 ## Table of Contents
 
 ## Screenshot
-<p align="center">
-  <img src="./assets/01-html-css-git-homework-demo.png" title="Screenshot" alt="Screenshot of assignment">
+![Screenshot](./Assets/01-html-css-git-homework-demo.png)
 
 ## Links
 [Site Link]()
