@@ -5,5 +5,6 @@ Challenge is to clean up existing code to have semantic HTML elements and add ac
 ## Table of Contents
 
 ## Screenshot
+![Screenshot1](./assets/images/Screenshot1.jpg?raw=true "Screenshot")
 
 ## Links
