@@ -1,0 +1,153 @@
+/*Universal settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*Setting special background color for body */
+body {
+    background-color: #d9dcd6;
+}
+
+/*Configuring settings for header */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Configuring settings for footer */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Adjusting size and display style of primary header */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Adjusting size and margins for secondary headers */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Adjusting size and centering text for tertiary headers */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Adjusting size of quaternary header */
+h4 {
+    font-size: 20px;
+}
+
+/*Changing colors of letters 'seo' in main header */
+span[data-seo] {
+    color: #d9dcd6;
+    content: attr(data-seo);
+}
+
+/*Adjusting top padding amount and size of font for nav section */
+nav {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+/*Removing bullet points from list */
+ul {
+    list-style-type: none;
+}
+
+/*Displaying list items across instead of down, adjusting margin to accommodate */
+li {
+    display: inline-block;
+    margin-left: 25px;
+    
+}
+
+/*Adjusting display of links on page */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Adjusting font size of paragraph text */
+p {
+    font-size: 16px;
+}
+
+/*Main background image separating header from body on page */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Class that shits content left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Class that shifts content right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Class for main content, setting display constraints */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Class for aside content, setting display constraints */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+/*Class adding margin below elements in benefits class*/
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Adjusting settings for images in benefits class */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*Adjusting settings for sections in content class */
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Setting max height constraint for images in content class */
+.content img {
+    max-height: 200px;
+}
