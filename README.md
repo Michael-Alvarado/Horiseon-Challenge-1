@@ -5,6 +5,6 @@ Challenge is to clean up existing code to have semantic HTML elements and add ac
 ## Table of Contents
 
 ## Screenshot
-![Screenshot1](./assets/images/01-html-css-git-homework-demo.png?raw=true "Screenshot")
+![Screenshot1](./assets/images/01-html-css-git-homework-demo.png)
 
 ## Links
